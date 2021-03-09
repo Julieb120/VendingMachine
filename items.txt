@@ -1,0 +1,4 @@
+A5:Airheads:2.00:5
+B2:Sprite:5.00:2
+B6:HoneyBun:.50:3
+C7:Chips: 3.00:7
