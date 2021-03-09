@@ -58,6 +58,10 @@ public class VendingMachineDaoFile implements VendingMachineDao {
        //Edit inventory amount
       int current = purchased.getQuantity();
       purchased.setQuantity(current-1);
+      
+      
+      //edit file
+      writeFile();
        
     }
 
