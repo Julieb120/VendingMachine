@@ -56,8 +56,13 @@ public class View {
     }
     
     public void displayMoneyLeft(Money money){
-        System.out.printf("You have $%s left", money.getTotal());
-    
+        if(money == null){
+            System.out.printf("You have $0 left");
+        }
+        
+        else{
+            System.out.printf("You have $%s left", money.getTotal());
+        }
     }
     
     public void exit(Money money){
